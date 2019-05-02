@@ -14,3 +14,15 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require bootstrap-3.1.1.min.js
+//= require easing.js
+//= require easy-responsive-tabs.js
+//= require jquery-2.2.3.min.js
+//= require jquery-ui.js
+//= require jquery.flexisel.js
+//= require jquery.magnific-popup.js
+//= require lsb.min.js
+//= require move-top.js
+//= require owl.carousel.js
+//= require responsiveslides.min.js
+//= require SmoothScroll.min.js

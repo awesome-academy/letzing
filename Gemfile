@@ -11,6 +11,10 @@ gem "rubocop", "~> 0.54.0", require: false
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
+gem "bootstrap"
+gem "font-awesome-rails"
+gem "jquery-rails"
+gem "bootstrap-sass"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
