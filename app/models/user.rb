@@ -10,4 +10,6 @@ class User < ApplicationRecord
   has_many :received_messages, class_name: Message.name,
   foreign_key: :receiver_id, dependent: :destroy
   has_many :senders, through: :received_messages
+
+  enum gender: [:male, :female]
 end

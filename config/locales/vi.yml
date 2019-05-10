@@ -1,4 +1,10 @@
 vi:
+  activerecord:
+    enums:
+      user:
+        genders:
+          male: "Nam"
+          female: "Nữ"
   layouts:
     header:
       logo_title: "LET US ZING"
@@ -21,3 +27,30 @@ vi:
        Nulla porttitor accumsana tincidunt. Vestibulum ante ipsum primis tempus convallis."
       sub_to: "Đăng kí Newsletter của chúng tôi"
       sub: "Đăng kí"
+  test:
+    home:
+      zing: "Zing with us now"
+    login_form:
+      signin_title: "Đăng nhập"
+      signin_or: "hoặc dùng tài khoản"
+      email: "Email"
+      pwd: "Mật khẩu"
+      remb: "Hãy nhớ tôi"
+      logbtn: "Đăng nhập"
+    signup_form:
+      create_title: "Tạo tài khoản"
+      create_or: "hoặc dùng email để đăng kí"
+      name: "Tên"
+      email: "Email"
+      pwd: "Mật khẩu"
+      confirmpwd: "Xác nhận mật khẩu"
+      gender: "Giới tính"
+      date_of_birth: "Ngày tháng năm sinh"
+      supbtn: "Đăng kí"
+    new:
+      welback: "Chào mừng trở lại!"
+      welto: "Để kết nối tới chúng tôi, hãy đăng nhập"
+      hinew: "Chào bạn"
+      hi_info: "Hãy nhập thông tin cần thiết để zing với chúng tôi."
+      logbtn: "Đăng nhập"
+      supbtn: "Đăng kí"

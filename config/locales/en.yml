@@ -1,4 +1,10 @@
 en:
+  activerecord:
+    enums:
+      user:
+        genders:
+          male: "Male"
+          female: "Female"
   layouts:
     header:
       logo_title: "LET US ZING"
@@ -21,3 +27,30 @@ en:
        Nulla porttitor accumsana tincidunt. Vestibulum ante ipsum primis tempus convallis."
       sub_to: "Subscribe our Newsletter"
       sub: "Subscribe"
+  test:
+    home:
+      zing: "Zing with us now"
+    login_form:
+      signin_title: "Sign in"
+      signin_or: "or use your account"
+      email: "Email"
+      pwd: "Password"
+      remb: "Remember me"
+      logbtn: "Log in"
+    signup_form:
+      create_title: "Create Account"
+      create_or: "or use your email for registration"
+      name: "Name"
+      email: "Email"
+      pwd: "Password"
+      confirmpwd: "Confirm Password"
+      gender: "Gender"
+      date_of_birth: "Date of Birth"
+      supbtn: "Sign Up"
+    new:
+      welback: "Welcome Back!"
+      welto: "To keep connected with us please login with your personal info"
+      hinew: "Hello, Friend!"
+      hi_info: "Enter your personal details and start journey with us"
+      logbtn: "Log in"
+      supbtn: "Sign Up"

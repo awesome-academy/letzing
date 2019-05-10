@@ -1,0 +1,28 @@
+<div class="sign-ani">
+  <div class="sign-ani-container" id="sign-ani-container">
+    <div class="form-container sign-up-container">
+      <%= render "test/signup_form" %>
+    </div>
+
+    <div class="form-container sign-in-container">
+      <%= render "test/login_form" %>
+    </div>
+
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1><%= t ".welback" %></h1>
+          <p><%= t ".welto" %></p>
+          <button class="ghost" id="signIn"><%= t ".logbtn" %></button>
+        </div>
+
+        <div class="overlay-panel overlay-right">
+          <h1><%= t ".hinew" %></h1>
+          <p><%= t ".hi_info" %></p>
+          <button class="ghost" id="signUp"><%= t ".supbtn" %></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

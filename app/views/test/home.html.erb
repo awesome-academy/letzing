@@ -1,0 +1,29 @@
+<% content_for :header_content do %>
+  <div class="container">
+    <div class="banner-text">
+      <div class="slider-info">
+        <h3 class="editContent">Let music zing your soul</h3>
+
+        <%= link_to "#login",
+          class: "banner-button btn mt-md-5 mt-4",
+          "data-toggle" => "modal",
+          "data-target" => "#exampleModal" do%>
+            <%= t ".zing" %>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <%= render "test/new" %>
+    </div>
+  </div>
+</div>
+
+<h1>Test#home</h1>
+<p>Find me in app/views/test/home.html.erb</p>

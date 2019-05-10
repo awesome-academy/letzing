@@ -1,0 +1,24 @@
+<%= form_with model: @user, local: true, url: yield(:signup_path) do |f| %>
+  <h1><%= t ".create_title" %></h1>
+  <span><%= t ".create_or" %></span>
+
+  <%= f.text_field :name, placeholder: t(".name"),class: "form-control" %>
+
+  <%= f.email_field :email, placeholder: t(".email"),class: "form-control" %>
+
+  <%= f.password_field :password, placeholder: t(".pwd"),
+    class: "form-control" %>
+
+  <%= f.password_field :password_confirmation, placeholder: t(".confirmpwd"),
+    class: "form-control" %>
+
+  <%= f.label :gender, t(".gender") %>
+  <div class="form-control">
+    <%= f.select :gender, enum_options_for_select(User, :gender) %>
+  </div>
+
+  <%= f.label :date_of_birth, t(".date_of_birth") %>
+  <%= f.date_field :date_of_birth, class: "form-control" %>
+
+  <%= f.submit t(".supbtn"), class: "inputsub" %>
+<% end %>

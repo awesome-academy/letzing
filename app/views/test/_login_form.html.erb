@@ -1,0 +1,17 @@
+<%= form_with scope: :session, url: yield(:login_path), local: true do |f| %>
+  <h1><%= t ".signin_title" %></h1>
+  <span><%= t ".signin_or" %></span>
+
+  <%= f.email_field :email, placeholder: t(".email"),
+    class: "form-control" %>
+
+  <%= f.password_field :password, placeholder: t(".pwd"),
+    class: "form-control" %>
+
+  <%= f.label :remember_me, class: "checkbox inline" do %>
+    <%= f.check_box :remember_me %>
+    <%= t ".remb" %>
+  <% end %>
+
+  <%= f.submit t(".logbtn"), class: "inputsub" %>
+<% end %>
